@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>jQuery Brown Bottle - calc.js Test Suite</title>
+  <link rel="stylesheet" href="css/qunit-1.12.0.css">
+</head>
+<body>
+  <div id="qunit"></div>
+  <div id="qunit-fixture">
+    <div id="calcContainer" class="container">
+      <div class="row">
+        <div class="offset4 span4">
+            <input class="span4 calc-expression" type="text" placeholder="Expression"></input>
+        </div>
+      </div>
+      <div class="row">
+        <div class="offset4 span4">
+            <input class="span4 calc-output" type="text" placeholder="Calculated Result"></input>
+        </div>
+      </div>
+      <div class="row">
+        <div class="offset4 span1"><button class="btn btn-block">(</button></div>
+        <div class="span1"><button class="btn btn-block">)</button></div>
+        <div class="span1"><button class="btn btn-block">?</button></div>
+        <div class="span1"><button class="btn btn-block">AC</button></div>
+      </div>
+      <div class="row">
+        <div class="offset4 span1"><button class="btn btn-block">7</button></div>
+        <div class="span1"><button class="btn btn-block">8</button></div>
+        <div class="span1"><button class="btn btn-block">9</button></div>
+        <div class="span1"><button class="btn btn-block">&divide;</button></div>
+      </div>
+      <div class="row">
+        <div class="offset4 span1"><button class="btn btn-block">4</button></div>
+        <div class="span1"><button class="btn btn-block">5</button></div>
+        <div class="span1"><button class="btn btn-block">6</button></div>
+        <div class="span1"><button class="btn btn-block">&times;</button></div>
+      </div>
+      <div class="row">
+        <div class="offset4 span1"><button class="btn btn-block">1</button></div>
+        <div class="span1"><button class="btn btn-block">2</button></div>
+        <div class="span1"><button class="btn btn-block">3</button></div>
+        <div class="span1"><button class="btn btn-block">+</button></div>
+      </div>
+      <div class="row">
+        <div class="offset4 span1"><button class="btn btn-block">0</button></div>
+        <div class="span1"><button class="btn btn-block">.</button></div>
+        <div class="span1"><button class="btn btn-block">=</button></div>
+        <div class="span1"><button class="btn btn-block">-</button></div>
+      </div>
+    </div>
+  </div>
+  <script src="js/libs/qunit-1.12.0.js"></script>
+  <script src="js/libs/require.js" data-main="js/test-calc-parser"></script>
+</body>
+</html>
