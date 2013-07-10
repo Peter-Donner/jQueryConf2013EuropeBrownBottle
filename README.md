@@ -1,7 +1,7 @@
 # $ jQuery Brown Bottle $
 
 ## Slides and Code
-...can be found here ([download as zip file](https://github.com/Peter-Donner/jQueryConf2013EuropeBrownBottle/archive/master.zip))
+...can be found here^^ (or [Download as ZIP](https://github.com/Peter-Donner/jQueryConf2013EuropeBrownBottle/archive/master.zip))
 
 ## Resources
 *   [jQuery Conference Speakers' Slides](http://lanyrd.com/2013/jqueryeurope/)
